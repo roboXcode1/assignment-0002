@@ -1,0 +1,130 @@
+@media screen and (max-width: 680px) {
+    /* Sharend style */
+    .hero,
+    .curricu,
+    .s-container,
+    .foot {
+      width: calc(100% - 40px);
+      margin: 0px auto;
+    }
+    img {
+      width: 100%;
+    }
+  
+    /* Nav bar */
+    .laptop {
+      display: none;
+    }
+    .mo {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .mo > hr {
+      border: 0.5px solid rgb(254, 163, 1);
+    }
+  
+    .mo-c {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      width: calc(100% - 30px);
+      margin: 0px auto;
+    }
+  
+    .ham {
+      width: 35px;
+    }
+   /* Hero section */
+   .hero {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .left h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* standard curriculum */
+  .curricu h2 {
+    font-size: 26px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  /* Our stories */
+  .s-card {
+    display: none;
+  }
+
+  .all-story {
+    grid-template-columns: 1fr;
+  }
+  .multi-story {
+    gap: 10px;
+  }
+
+  .date2 {
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 12px;
+    width: 130px;
+    margin-top: -22px;
+  }
+
+  .text4 {
+    margin: 10px;
+  }
+
+  /* Footer */
+  .foot {
+    grid-template-columns: 1fr;
+  }
+
+  .kid-education p {
+    text-align: left;
+  }
+
+  .foot-nav {
+    align-items: flex-start;
+    margin-top: 34px;
+  }
+
+  .social {
+    margin-top: 34px;
+  }
+
+  footer {
+    padding: 100px 0;
+  }
+
+  /* Fixed */
+  .arrow-container {
+    display: none;
+  }
+
+  .s-container h2{
+    font-size: 30px;
+  }
+
+  .curricu> h2{
+    font-size: 30px;
+  }
+}
+   
